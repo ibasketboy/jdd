@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+
+import pandas as pd
+import numpy as np
+
+
 ##   数据切分并输出
 a = t_click.copy()
 a['click_time_date'] = a.click_time.apply(lambda x:pd.to_datetime(x))
